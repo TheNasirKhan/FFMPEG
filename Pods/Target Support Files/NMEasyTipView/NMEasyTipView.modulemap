@@ -1,0 +1,6 @@
+framework module NMEasyTipView {
+  umbrella header "NMEasyTipView-umbrella.h"
+
+  export *
+  module * { export * }
+}

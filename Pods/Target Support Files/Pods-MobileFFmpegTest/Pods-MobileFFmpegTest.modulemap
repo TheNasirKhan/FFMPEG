@@ -1,0 +1,6 @@
+framework module Pods_MobileFFmpegTest {
+  umbrella header "Pods-MobileFFmpegTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

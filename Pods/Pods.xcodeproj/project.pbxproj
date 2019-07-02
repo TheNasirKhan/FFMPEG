@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6BA25600F2F962FDCBFFB9272A91B95F /* mobile-ffmpeg-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20B1698FF38E5758EA065320551C355A /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "mobile-ffmpeg-full";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22915A25D74692D38EDC0DED162314CB /* RCEasyTipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19183F81D7F30A76A09B299029EA1810 /* RCEasyTipView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B81F723D4F7D57D19AE1498FB64CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		76465705A5620773B2322E734CAF9985 /* UIBarItem+RCBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3D11A152413E67AA0E4E2B80BBE92 /* UIBarItem+RCBarItem.m */; };
+		80F9966DD8EC3D7DAE0287072AFC691C /* RCEasyTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = D828F9F16A2C4FD9731FD085F90A2719 /* RCEasyTipView.m */; };
+		889C14A8912F47D0AEC9D003A96FA2A7 /* UIView+RCEssentials.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A42200F52010C32C0E90BCDC20B309 /* UIView+RCEssentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DA6A067DBEBAAEA9BA4FBAB4B95242 /* Pods-MobileFFmpegTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55265BC05E605D6A29C51407E2136B72 /* Pods-MobileFFmpegTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D283A0D5E093D2FF88EBFBA10CB5157 /* NMEasyTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE79FCCF784D6D44506DE9BD30B134 /* NMEasyTipView-dummy.m */; };
+		9E598F943F04BF2F6FC786DC57C96BCE /* RCEasyTipViewIDGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F64224C6EC82F4E65993BBFAFEB6C914 /* RCEasyTipViewIDGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A382D2A2EB6762E2BCA62419D96FD424 /* Pods-MobileFFmpegTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E54E9EEC951EC086BB14F99C2788689 /* Pods-MobileFFmpegTest-dummy.m */; };
+		B52D1C78AAC2F0034B17791727E1FDFF /* UIBarItem+RCBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A374266F9D4899880AA053F2986DBDC /* UIBarItem+RCBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8964343D6980F62AA9762A9E6E308B4 /* UIView+RCEssentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482A02245DC8E043C02631D8A3C5259 /* UIView+RCEssentials.m */; };
+		D546D94386D39680BEBE00C5BB0ACB8B /* NMEasyTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 594E21E30A0024C7996716C74D0FF3D8 /* NMEasyTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2863D8784D674E985B0422384654738 /* RCEasyTipViewIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D361C993F4B19AF1946281EF87E585 /* RCEasyTipViewIDGenerator.m */; };
+		E3DB80B26660F30D8E2237B5E0971F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E41AFA756197B464E88499084286135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA25600F2F962FDCBFFB9272A91B95F;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+		92B7A5E3E44E60DE1011A39D9AB80559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C98CBE94EEB2C672337C014766DAB99;
+			remoteInfo = NMEasyTipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028C735AC3CF199E18075291137EBE41 /* gnutls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gnutls.framework; sourceTree = "<group>"; };
+		0482A02245DC8E043C02631D8A3C5259 /* UIView+RCEssentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RCEssentials.m"; path = "Source/UIView+RCEssentials.m"; sourceTree = "<group>"; };
+		104B48152780C70A17387E35F5E43954 /* shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = shine.framework; sourceTree = "<group>"; };
+		13DA06C2F7FECD26B438F1921F990243 /* libxml2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libxml2.framework; sourceTree = "<group>"; };
+		14EEF265DB19D03D3E9D77F58741DEE9 /* libvorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbis.framework; sourceTree = "<group>"; };
+		19183F81D7F30A76A09B299029EA1810 /* RCEasyTipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCEasyTipView.h; path = Source/RCEasyTipView.h; sourceTree = "<group>"; };
+		1E54E9EEC951EC086BB14F99C2788689 /* Pods-MobileFFmpegTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobileFFmpegTest-dummy.m"; sourceTree = "<group>"; };
+		22910F8EAE62ECCA5299793816838BF9 /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		2345E0182E0DA678D8D0A8A7A77B4431 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
+		2598300D790BB27127C5D2F5A2070DDC /* NMEasyTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NMEasyTipView.framework; path = NMEasyTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA9B4D10D30A2BAFE7287BC45BD89C /* speex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = speex.framework; sourceTree = "<group>"; };
+		31B61DD1AC60C9B73F0DD9063F73F335 /* NMEasyTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMEasyTipView.modulemap; sourceTree = "<group>"; };
+		36D361C993F4B19AF1946281EF87E585 /* RCEasyTipViewIDGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCEasyTipViewIDGenerator.m; path = Source/RCEasyTipViewIDGenerator.m; sourceTree = "<group>"; };
+		37A66A2010F78CDB66798815490C9A04 /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		38076C1E3ECBACB4B88485CCA0422AA2 /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		4488184520559784665EE9F805D6EE09 /* expat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = expat.framework; sourceTree = "<group>"; };
+		45444C4E6B9745B72265387EF3C124F3 /* libilbc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libilbc.framework; sourceTree = "<group>"; };
+		493065B34CFA382D680F159FBF5C2A76 /* libuuid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libuuid.framework; sourceTree = "<group>"; };
+		49AC5015121F22E924E0F5D88E36D05B /* kvazaar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = kvazaar.framework; sourceTree = "<group>"; };
+		4A25443B904F526FB136FF7AF96CFD43 /* wavpack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wavpack.framework; sourceTree = "<group>"; };
+		4B4AB2142CB38D01C008DE39C1A842BB /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		4C5299BEA052EAB2AC7584C1B41FB45B /* Pods-MobileFFmpegTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileFFmpegTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4D472E329895AA5638639F10B377A023 /* NMEasyTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMEasyTipView-prefix.pch"; sourceTree = "<group>"; };
+		52B3CEF87FAC6A477B3E3C4E5718CED2 /* giflib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = giflib.framework; sourceTree = "<group>"; };
+		5466BE188D902D939FF59CDC0345C1A9 /* twolame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = twolame.framework; sourceTree = "<group>"; };
+		54FF3DF0C7A67897C37B6D556EADB27F /* libopencore-amrnb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "libopencore-amrnb.framework"; sourceTree = "<group>"; };
+		55265BC05E605D6A29C51407E2136B72 /* Pods-MobileFFmpegTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobileFFmpegTest-umbrella.h"; sourceTree = "<group>"; };
+		55FE79FCCF784D6D44506DE9BD30B134 /* NMEasyTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMEasyTipView-dummy.m"; sourceTree = "<group>"; };
+		594E21E30A0024C7996716C74D0FF3D8 /* NMEasyTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMEasyTipView-umbrella.h"; sourceTree = "<group>"; };
+		60075365268A5B2379573CDBF3A1CA35 /* jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = jpeg.framework; sourceTree = "<group>"; };
+		6261A1A9F080F5E942C2437C392B6809 /* Pods_MobileFFmpegTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MobileFFmpegTest.framework; path = "Pods-MobileFFmpegTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6898699B0E9CA5409A53EF3314D3F2DF /* libtheora.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheora.framework; sourceTree = "<group>"; };
+		716ABEF0555F4F3283563DCE9C4F2F85 /* libwebpdemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebpdemux.framework; sourceTree = "<group>"; };
+		72BAB9BF80F7C35E3B34117A6F2C1C6C /* libvpx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvpx.framework; sourceTree = "<group>"; };
+		779BA944F64902C994BB3CA8266CD740 /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
+		7E0FEFE57046964CA28761FE2EF8D997 /* opus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opus.framework; sourceTree = "<group>"; };
+		7EEF24B2A3C5ADD1C9218D4EBC1D06B8 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
+		807DAFB03C9A3E3AC27826A506EF1C58 /* libvorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisenc.framework; sourceTree = "<group>"; };
+		829E30CE867E7B9D0CB27EBFAC322410 /* libaom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libaom.framework; sourceTree = "<group>"; };
+		82E72AB460496003480823E477F5C8C0 /* libiconv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libiconv.framework; sourceTree = "<group>"; };
+		8BA02E9E3FBDF7ABBB3DE09D6B461B4F /* Pods-MobileFFmpegTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobileFFmpegTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90DF7949AE0DC2ED75E9785E47E425AF /* libogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libogg.framework; sourceTree = "<group>"; };
+		95A41B71FC3ED1BD074841ABC9B7BFA1 /* NMEasyTipView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NMEasyTipView-Info.plist"; sourceTree = "<group>"; };
+		9A374266F9D4899880AA053F2986DBDC /* UIBarItem+RCBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+RCBarItem.h"; path = "Source/UIBarItem+RCBarItem.h"; sourceTree = "<group>"; };
+		9ADE4DE021B25BE5A12896F456E95F28 /* fontconfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fontconfig.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F847E9CA8E7EE422AE009E7EE74776E /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebp.framework; sourceTree = "<group>"; };
+		A11CB26EBD3433583D72ABF02F9F0F4E /* gmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gmp.framework; sourceTree = "<group>"; };
+		A363E90EB698D8492A12D8D47B642B12 /* libtheoraenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheoraenc.framework; sourceTree = "<group>"; };
+		A42BC22C60672BE0CD3EAA5A5C4524B2 /* tiff.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tiff.framework; sourceTree = "<group>"; };
+		A4D9D8CFE1682DC294B5A0E1FACB03FA /* libtheoradec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheoradec.framework; sourceTree = "<group>"; };
+		AA43B95E366409B23A82B200E5EFD9A6 /* libhogweed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libhogweed.framework; sourceTree = "<group>"; };
+		B48B8AFE6DF95B90A029F3B7F13262C2 /* Pods-MobileFFmpegTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobileFFmpegTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7627CF841CA066D34ECEA09FE32766F /* mobile-ffmpeg-full.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.xcconfig"; sourceTree = "<group>"; };
+		B7FA6B3EDD20C8D40F9E7AAB2160E879 /* libopencore-amrwb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "libopencore-amrwb.framework"; sourceTree = "<group>"; };
+		B84AAC5E579741BAB75FFE71CE3D18D3 /* snappy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = snappy.framework; sourceTree = "<group>"; };
+		B87A44FAC6061DCDCF8F7CF7B1BA1395 /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		B8B2970FE1FEF9A3951FFFF210AC74BF /* libcharset.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libcharset.framework; sourceTree = "<group>"; };
+		C101AFA3880D47048B122A5EED430664 /* NMEasyTipView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMEasyTipView.xcconfig; sourceTree = "<group>"; };
+		C4C381F7183D2D70EA1FDA1E4A6C58BF /* libpng.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpng.framework; sourceTree = "<group>"; };
+		C6A42200F52010C32C0E90BCDC20B309 /* UIView+RCEssentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RCEssentials.h"; path = "Source/UIView+RCEssentials.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D828F9F16A2C4FD9731FD085F90A2719 /* RCEasyTipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCEasyTipView.m; path = Source/RCEasyTipView.m; sourceTree = "<group>"; };
+		DA678DA56C262C323F79957489E7DBBA /* Pods-MobileFFmpegTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobileFFmpegTest-Info.plist"; sourceTree = "<group>"; };
+		E0351B89EC79AABDCF40C79779E7462D /* libsndfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsndfile.framework; sourceTree = "<group>"; };
+		E49D7DB8EA7668B61726A8CE5846CBC3 /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
+		EB0C5EAE21A90324D9D19806F00C7C53 /* soxr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = soxr.framework; sourceTree = "<group>"; };
+		EC9901625448D68544B5883A6F021C0E /* libvorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisfile.framework; sourceTree = "<group>"; };
+		ED6E6347D95F128BAA77A32B596BDCDF /* libass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libass.framework; sourceTree = "<group>"; };
+		F18120C2851811623957FEF2E776C1B3 /* fribidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fribidi.framework; sourceTree = "<group>"; };
+		F1DAF0BA7608327D95D24C015BA6BF8C /* Pods-MobileFFmpegTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobileFFmpegTest.modulemap"; sourceTree = "<group>"; };
+		F64224C6EC82F4E65993BBFAFEB6C914 /* RCEasyTipViewIDGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCEasyTipViewIDGenerator.h; path = Source/RCEasyTipViewIDGenerator.h; sourceTree = "<group>"; };
+		F86F44BB501F85834F749569763636ED /* libwebpdecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebpdecoder.framework; sourceTree = "<group>"; };
+		F877F420AB04FD1247395DADCEDB3B90 /* Pods-MobileFFmpegTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileFFmpegTest-frameworks.sh"; sourceTree = "<group>"; };
+		F8E3D11A152413E67AA0E4E2B80BBE92 /* UIBarItem+RCBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarItem+RCBarItem.m"; path = "Source/UIBarItem+RCBarItem.m"; sourceTree = "<group>"; };
+		FE35EA25E1EC768957BC4B7810B24BC8 /* Pods-MobileFFmpegTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileFFmpegTest.release.xcconfig"; sourceTree = "<group>"; };
+		FE811BA2BE9C04E507D1FF90A254E749 /* libnettle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libnettle.framework; sourceTree = "<group>"; };
+		FFAEE7DB6625298D00C2F3BA42E16AAA /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B58B7E6DAA34E9CD4EE1BA1A55FA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DB80B26660F30D8E2237B5E0971F98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A6C3C551139E61512638B8B536473E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B81F723D4F7D57D19AE1498FB64CFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041B2805B2306A67D9F598AE86B427B4 /* mobile-ffmpeg-full */ = {
+			isa = PBXGroup;
+			children = (
+				042350B267819192C0462628A3BAB495 /* Frameworks */,
+				DE2121EBB41CA2008F96842005E46FB0 /* Support Files */,
+			);
+			name = "mobile-ffmpeg-full";
+			path = "mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		042350B267819192C0462628A3BAB495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4488184520559784665EE9F805D6EE09 /* expat.framework */,
+				9ADE4DE021B25BE5A12896F456E95F28 /* fontconfig.framework */,
+				2345E0182E0DA678D8D0A8A7A77B4431 /* freetype.framework */,
+				F18120C2851811623957FEF2E776C1B3 /* fribidi.framework */,
+				52B3CEF87FAC6A477B3E3C4E5718CED2 /* giflib.framework */,
+				A11CB26EBD3433583D72ABF02F9F0F4E /* gmp.framework */,
+				028C735AC3CF199E18075291137EBE41 /* gnutls.framework */,
+				60075365268A5B2379573CDBF3A1CA35 /* jpeg.framework */,
+				49AC5015121F22E924E0F5D88E36D05B /* kvazaar.framework */,
+				4B4AB2142CB38D01C008DE39C1A842BB /* lame.framework */,
+				829E30CE867E7B9D0CB27EBFAC322410 /* libaom.framework */,
+				ED6E6347D95F128BAA77A32B596BDCDF /* libass.framework */,
+				FFAEE7DB6625298D00C2F3BA42E16AAA /* libavcodec.framework */,
+				B87A44FAC6061DCDCF8F7CF7B1BA1395 /* libavdevice.framework */,
+				37A66A2010F78CDB66798815490C9A04 /* libavfilter.framework */,
+				38076C1E3ECBACB4B88485CCA0422AA2 /* libavformat.framework */,
+				779BA944F64902C994BB3CA8266CD740 /* libavutil.framework */,
+				B8B2970FE1FEF9A3951FFFF210AC74BF /* libcharset.framework */,
+				AA43B95E366409B23A82B200E5EFD9A6 /* libhogweed.framework */,
+				82E72AB460496003480823E477F5C8C0 /* libiconv.framework */,
+				45444C4E6B9745B72265387EF3C124F3 /* libilbc.framework */,
+				FE811BA2BE9C04E507D1FF90A254E749 /* libnettle.framework */,
+				90DF7949AE0DC2ED75E9785E47E425AF /* libogg.framework */,
+				54FF3DF0C7A67897C37B6D556EADB27F /* libopencore-amrnb.framework */,
+				B7FA6B3EDD20C8D40F9E7AAB2160E879 /* libopencore-amrwb.framework */,
+				C4C381F7183D2D70EA1FDA1E4A6C58BF /* libpng.framework */,
+				E0351B89EC79AABDCF40C79779E7462D /* libsndfile.framework */,
+				7EEF24B2A3C5ADD1C9218D4EBC1D06B8 /* libswresample.framework */,
+				22910F8EAE62ECCA5299793816838BF9 /* libswscale.framework */,
+				6898699B0E9CA5409A53EF3314D3F2DF /* libtheora.framework */,
+				A4D9D8CFE1682DC294B5A0E1FACB03FA /* libtheoradec.framework */,
+				A363E90EB698D8492A12D8D47B642B12 /* libtheoraenc.framework */,
+				493065B34CFA382D680F159FBF5C2A76 /* libuuid.framework */,
+				14EEF265DB19D03D3E9D77F58741DEE9 /* libvorbis.framework */,
+				807DAFB03C9A3E3AC27826A506EF1C58 /* libvorbisenc.framework */,
+				EC9901625448D68544B5883A6F021C0E /* libvorbisfile.framework */,
+				72BAB9BF80F7C35E3B34117A6F2C1C6C /* libvpx.framework */,
+				9F847E9CA8E7EE422AE009E7EE74776E /* libwebp.framework */,
+				F86F44BB501F85834F749569763636ED /* libwebpdecoder.framework */,
+				716ABEF0555F4F3283563DCE9C4F2F85 /* libwebpdemux.framework */,
+				13DA06C2F7FECD26B438F1921F990243 /* libxml2.framework */,
+				E49D7DB8EA7668B61726A8CE5846CBC3 /* mobileffmpeg.framework */,
+				7E0FEFE57046964CA28761FE2EF8D997 /* opus.framework */,
+				104B48152780C70A17387E35F5E43954 /* shine.framework */,
+				B84AAC5E579741BAB75FFE71CE3D18D3 /* snappy.framework */,
+				EB0C5EAE21A90324D9D19806F00C7C53 /* soxr.framework */,
+				2BBA9B4D10D30A2BAFE7287BC45BD89C /* speex.framework */,
+				A42BC22C60672BE0CD3EAA5A5C4524B2 /* tiff.framework */,
+				5466BE188D902D939FF59CDC0345C1A9 /* twolame.framework */,
+				4A25443B904F526FB136FF7AF96CFD43 /* wavpack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08948B5F4BC89850E9E259A5E1B86D2C /* NMEasyTipView */ = {
+			isa = PBXGroup;
+			children = (
+				19183F81D7F30A76A09B299029EA1810 /* RCEasyTipView.h */,
+				D828F9F16A2C4FD9731FD085F90A2719 /* RCEasyTipView.m */,
+				F64224C6EC82F4E65993BBFAFEB6C914 /* RCEasyTipViewIDGenerator.h */,
+				36D361C993F4B19AF1946281EF87E585 /* RCEasyTipViewIDGenerator.m */,
+				9A374266F9D4899880AA053F2986DBDC /* UIBarItem+RCBarItem.h */,
+				F8E3D11A152413E67AA0E4E2B80BBE92 /* UIBarItem+RCBarItem.m */,
+				C6A42200F52010C32C0E90BCDC20B309 /* UIView+RCEssentials.h */,
+				0482A02245DC8E043C02631D8A3C5259 /* UIView+RCEssentials.m */,
+				5CEC5AA9188B706A9F8CF8B086B4101D /* Support Files */,
+			);
+			name = NMEasyTipView;
+			path = NMEasyTipView;
+			sourceTree = "<group>";
+		};
+		1A628FFE1FAD36023C1A380CD83E2F0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1016036667C4EA0567B639E2F8C7FD3 /* Pods-MobileFFmpegTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		354D1D1F3DA9FE898AC4A71854392707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2598300D790BB27127C5D2F5A2070DDC /* NMEasyTipView.framework */,
+				6261A1A9F080F5E942C2437C392B6809 /* Pods_MobileFFmpegTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CEC5AA9188B706A9F8CF8B086B4101D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31B61DD1AC60C9B73F0DD9063F73F335 /* NMEasyTipView.modulemap */,
+				C101AFA3880D47048B122A5EED430664 /* NMEasyTipView.xcconfig */,
+				55FE79FCCF784D6D44506DE9BD30B134 /* NMEasyTipView-dummy.m */,
+				95A41B71FC3ED1BD074841ABC9B7BFA1 /* NMEasyTipView-Info.plist */,
+				4D472E329895AA5638639F10B377A023 /* NMEasyTipView-prefix.pch */,
+				594E21E30A0024C7996716C74D0FF3D8 /* NMEasyTipView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMEasyTipView";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B1016036667C4EA0567B639E2F8C7FD3 /* Pods-MobileFFmpegTest */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAF0BA7608327D95D24C015BA6BF8C /* Pods-MobileFFmpegTest.modulemap */,
+				8BA02E9E3FBDF7ABBB3DE09D6B461B4F /* Pods-MobileFFmpegTest-acknowledgements.markdown */,
+				B48B8AFE6DF95B90A029F3B7F13262C2 /* Pods-MobileFFmpegTest-acknowledgements.plist */,
+				1E54E9EEC951EC086BB14F99C2788689 /* Pods-MobileFFmpegTest-dummy.m */,
+				F877F420AB04FD1247395DADCEDB3B90 /* Pods-MobileFFmpegTest-frameworks.sh */,
+				DA678DA56C262C323F79957489E7DBBA /* Pods-MobileFFmpegTest-Info.plist */,
+				55265BC05E605D6A29C51407E2136B72 /* Pods-MobileFFmpegTest-umbrella.h */,
+				4C5299BEA052EAB2AC7584C1B41FB45B /* Pods-MobileFFmpegTest.debug.xcconfig */,
+				FE35EA25E1EC768957BC4B7810B24BC8 /* Pods-MobileFFmpegTest.release.xcconfig */,
+			);
+			name = "Pods-MobileFFmpegTest";
+			path = "Target Support Files/Pods-MobileFFmpegTest";
+			sourceTree = "<group>";
+		};
+		BE64441353AB77218B6496008BE9171E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				041B2805B2306A67D9F598AE86B427B4 /* mobile-ffmpeg-full */,
+				08948B5F4BC89850E9E259A5E1B86D2C /* NMEasyTipView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE64441353AB77218B6496008BE9171E /* Pods */,
+				354D1D1F3DA9FE898AC4A71854392707 /* Products */,
+				1A628FFE1FAD36023C1A380CD83E2F0E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2121EBB41CA2008F96842005E46FB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7627CF841CA066D34ECEA09FE32766F /* mobile-ffmpeg-full.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81B9795BA0829A8C380F34D8410937F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D546D94386D39680BEBE00C5BB0ACB8B /* NMEasyTipView-umbrella.h in Headers */,
+				22915A25D74692D38EDC0DED162314CB /* RCEasyTipView.h in Headers */,
+				9E598F943F04BF2F6FC786DC57C96BCE /* RCEasyTipViewIDGenerator.h in Headers */,
+				B52D1C78AAC2F0034B17791727E1FDFF /* UIBarItem+RCBarItem.h in Headers */,
+				889C14A8912F47D0AEC9D003A96FA2A7 /* UIView+RCEssentials.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63259FF1D08312D24B6EF86A3095F21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DA6A067DBEBAAEA9BA4FBAB4B95242 /* Pods-MobileFFmpegTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C98CBE94EEB2C672337C014766DAB99 /* NMEasyTipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38916A2ABAD4FADAE09E4C3E762928CF /* Build configuration list for PBXNativeTarget "NMEasyTipView" */;
+			buildPhases = (
+				81B9795BA0829A8C380F34D8410937F4 /* Headers */,
+				15E1EE7FABE6009A74B4297F6129A5EB /* Sources */,
+				89A6C3C551139E61512638B8B536473E /* Frameworks */,
+				745F071C3157CDB34F0E35B331645172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMEasyTipView;
+			productName = NMEasyTipView;
+			productReference = 2598300D790BB27127C5D2F5A2070DDC /* NMEasyTipView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		622DDDF27D1A0F349F0F3F2704D24944 /* Pods-MobileFFmpegTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5E323425C6951933F56AB94F0831CB /* Build configuration list for PBXNativeTarget "Pods-MobileFFmpegTest" */;
+			buildPhases = (
+				B63259FF1D08312D24B6EF86A3095F21 /* Headers */,
+				E8BF5F3CD9277748ADE17095D2032F0D /* Sources */,
+				47B58B7E6DAA34E9CD4EE1BA1A55FA8B /* Frameworks */,
+				1E7E8EC989BC0E11AA6270892B16036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB011237A436853487E2DA1B44A15CA2 /* PBXTargetDependency */,
+				18A93313F87D8CA57CDEA87C9F6E2069 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobileFFmpegTest";
+			productName = "Pods-MobileFFmpegTest";
+			productReference = 6261A1A9F080F5E942C2437C392B6809 /* Pods_MobileFFmpegTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 354D1D1F3DA9FE898AC4A71854392707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BA25600F2F962FDCBFFB9272A91B95F /* mobile-ffmpeg-full */,
+				0C98CBE94EEB2C672337C014766DAB99 /* NMEasyTipView */,
+				622DDDF27D1A0F349F0F3F2704D24944 /* Pods-MobileFFmpegTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E7E8EC989BC0E11AA6270892B16036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F071C3157CDB34F0E35B331645172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E1EE7FABE6009A74B4297F6129A5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D283A0D5E093D2FF88EBFBA10CB5157 /* NMEasyTipView-dummy.m in Sources */,
+				80F9966DD8EC3D7DAE0287072AFC691C /* RCEasyTipView.m in Sources */,
+				E2863D8784D674E985B0422384654738 /* RCEasyTipViewIDGenerator.m in Sources */,
+				76465705A5620773B2322E734CAF9985 /* UIBarItem+RCBarItem.m in Sources */,
+				C8964343D6980F62AA9762A9E6E308B4 /* UIView+RCEssentials.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BF5F3CD9277748ADE17095D2032F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A382D2A2EB6762E2BCA62419D96FD424 /* Pods-MobileFFmpegTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A93313F87D8CA57CDEA87C9F6E2069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = 6BA25600F2F962FDCBFFB9272A91B95F /* mobile-ffmpeg-full */;
+			targetProxy = 2E41AFA756197B464E88499084286135 /* PBXContainerItemProxy */;
+		};
+		DB011237A436853487E2DA1B44A15CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMEasyTipView;
+			target = 0C98CBE94EEB2C672337C014766DAB99 /* NMEasyTipView */;
+			targetProxy = 92B7A5E3E44E60DE1011A39D9AB80559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02CA38D50CD79A8D89D794EFBDA9E3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE35EA25E1EC768957BC4B7810B24BC8 /* Pods-MobileFFmpegTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileFFmpegTest/Pods-MobileFFmpegTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileFFmpegTest/Pods-MobileFFmpegTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CEE32F0A4CE4030A02DE376098B0B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7627CF841CA066D34ECEA09FE32766F /* mobile-ffmpeg-full.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D88A0E7C7730BBBCDF4723B1A838BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5299BEA052EAB2AC7584C1B41FB45B /* Pods-MobileFFmpegTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileFFmpegTest/Pods-MobileFFmpegTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileFFmpegTest/Pods-MobileFFmpegTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87D154CC203EB4AC2A1482516FFDB0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7627CF841CA066D34ECEA09FE32766F /* mobile-ffmpeg-full.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDFAC9A451D3713C0BD76D44575BBE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C101AFA3880D47048B122A5EED430664 /* NMEasyTipView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMEasyTipView/NMEasyTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMEasyTipView/NMEasyTipView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NMEasyTipView/NMEasyTipView.modulemap";
+				PRODUCT_MODULE_NAME = NMEasyTipView;
+				PRODUCT_NAME = NMEasyTipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE2903B89B9876686E38A6C9D7B2013B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C101AFA3880D47048B122A5EED430664 /* NMEasyTipView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMEasyTipView/NMEasyTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMEasyTipView/NMEasyTipView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NMEasyTipView/NMEasyTipView.modulemap";
+				PRODUCT_MODULE_NAME = NMEasyTipView;
+				PRODUCT_NAME = NMEasyTipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B1698FF38E5758EA065320551C355A /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEE32F0A4CE4030A02DE376098B0B85 /* Debug */,
+				87D154CC203EB4AC2A1482516FFDB0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5E323425C6951933F56AB94F0831CB /* Build configuration list for PBXNativeTarget "Pods-MobileFFmpegTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D88A0E7C7730BBBCDF4723B1A838BE4 /* Debug */,
+				02CA38D50CD79A8D89D794EFBDA9E3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38916A2ABAD4FADAE09E4C3E762928CF /* Build configuration list for PBXNativeTarget "NMEasyTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFAC9A451D3713C0BD76D44575BBE02 /* Debug */,
+				DE2903B89B9876686E38A6C9D7B2013B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
